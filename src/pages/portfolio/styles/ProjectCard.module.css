@@ -16,8 +16,12 @@
 
     box-shadow: 0px 0px 45px 0px rgba(0,0,0,1);
     -webkit-box-shadow: 0px 0px 45px 0px rgba(0,0,0,1);
-}
 
+    transition: all ease-in 0.7s;
+}
+.project_box:hover{
+    transform: scale(1.1);
+}
 
 .image{
     position: relative;
