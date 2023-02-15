@@ -5,7 +5,7 @@ import Navbar from '../../components/navbar/Navbar'
 import styles from './styles/Home.module.css'
 
 
-import Logo from '../../img/logo.jpeg'
+import Logo from '../../img/logo1.jpeg'
 
 function Home(){
     return(
@@ -14,6 +14,8 @@ function Home(){
 
 
             <img className={styles.home_image} src={Logo}/>
+
+            <button className={styles.button}>Faca seu orçamento</button>
             
         </section>
     )

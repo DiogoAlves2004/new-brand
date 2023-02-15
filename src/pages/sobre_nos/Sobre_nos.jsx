@@ -4,6 +4,10 @@
 import Navbar from '../../components/navbar/Navbar'
 import styles from './styles/SobreNos.module.css'
 
+
+//LIBS
+import Typewriter from "typewriter-effect";
+
 function SobreNos(){
     return(
         <section className={styles.sobre_nos} id="sobre_nos">
@@ -25,7 +29,18 @@ function SobreNos(){
                 <div className={styles.right_box}>
                     <div className={styles.right_box_align}>
 
-                            <div className={styles.h1}><h1>Quem somos?</h1></div>
+                            <div className={styles.h1}><h1>
+                            <Typewriter
+                            options={{
+                                strings: ['Quem somos?', 'Realizamos seus sonhos!'],
+                                autoStart: true,
+                                loop: true,
+                                delay: 'natural',
+                                pauseFor: 5000
+                            }}
+                            />
+                            </h1></div>
+
 
                             <div className={styles.right_text} >
                                 <p>

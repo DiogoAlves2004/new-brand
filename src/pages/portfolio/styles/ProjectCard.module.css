@@ -1,7 +1,12 @@
 .project_box{
 
-    width: 50vw;
-    height: 75vh;
+    width: max-content;
+    height: max-content;
+
+
+    border-radius: 100px 100px 100px 0;
+    cursor:grab;
+
     margin: auto;
     margin-bottom: 2em;
     display: flex;
@@ -9,6 +14,8 @@
     justify-content: center;
     flex-direction: column;
 
+    box-shadow: 0px 0px 45px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 45px 0px rgba(0,0,0,1);
 }
 
 
@@ -88,6 +95,8 @@
                 margin-bottom: 2em;
                 display: flex;
 
+                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0) !important;
+
             }
 
             .logo{
@@ -113,10 +122,6 @@
                 border-radius: 0px 0px 0px 100px;
             }
 
-            .project_text_box p{
-
-            
-            }
             
             .project_text_box h2 {
                 font-size: 2em;

@@ -5,15 +5,54 @@
     background-image: url("../../../img/home_image.jpg");
     background-position: 60% 25%;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .home_image{
-    position: absolute;
+    position: relative;
 
-    top: 35%;
-    left: 25%;
-
-
-    width: 50vw;
+    width: 45vw;
     clip-path: circle();
 }
+
+.button{
+    position: relative;
+    padding: 1em;
+
+    top: 3em;
+
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: #100251;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all ease-in 0.7s;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active{
+    background-color: #100251;
+    color: white;
+    transform: scale(1.1);
+}
+
+    @media only screen and (max-width: 768px) {
+
+        .home_image{
+            width: 150vw !important;
+            max-width: 150vw !important;
+
+            transform: translate(0, 100px);
+        }
+        .button{
+
+            transform: translate(0, 100px);
+        }
+
+
+    }

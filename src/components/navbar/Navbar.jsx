@@ -1,5 +1,5 @@
 
-import Hamburger from 'hamburger-react'
+import { Sling as Hamburger } from 'hamburger-react'
 
 import { useState, useEffect } from 'react'
 
@@ -38,7 +38,7 @@ return(
 
 
             <div className={styles.hamburger} >
-                <Hamburger  toggled={isOpen} toggle={setOpen} />
+                <Hamburger  color="#ffffff" size={100} distance="lg" easing="ease-in" toggled={isOpen} toggle={setOpen} />
             </div>
             {isOpen === true ?
     
