@@ -160,6 +160,14 @@
             background-color: white;
         }
 
+        .li_emphasis,
+        .li_emphasis:hover,
+        .li_emphasis a,
+        .li_emphasis a:hover{
+            padding: 1em 1.5em !important;
+        }
+
+
 
         
     }
