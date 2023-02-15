@@ -1,0 +1,66 @@
+.project_box{
+
+
+    width: 50vw;
+    height: 75vh;
+
+    margin: auto;
+
+    margin-bottom: 2em;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.image{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.image img{
+    height: 100%;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+
+}
+
+.logo img{
+    border-radius: 100px 0px 0px 0px;
+    height: 100%;
+}
+
+
+.project_images{
+    display: flex;
+    
+}
+
+.project_text_box{
+    color: black;
+    background-color: white;
+    width: 410px;
+    margin-top: 10px;
+    border-radius: 0px 0px 100px 0px;
+}
+
+.project_text_box p{
+    margin: 2em;
+
+}
+
+.project_text_box h2 {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    font-size: 1.7em;
+}

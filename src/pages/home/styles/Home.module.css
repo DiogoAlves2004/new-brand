@@ -1,0 +1,20 @@
+.home{
+    width: 99vw;
+    height: 100vh;
+    background-color: red;
+
+    background-image: url("../../../img/home_image.jpg");
+    background-position: 60% 25%;
+    background-attachment: fixed;
+}
+
+.home_image{
+    position: absolute;
+
+    top: 35%;
+    left: 25%;
+
+
+    width: 50vw;
+    clip-path: circle();
+}

@@ -1,0 +1,20 @@
+.portfolio{
+    width: 99vw;
+    height: 100vh;
+
+
+    background-image: url("../../../img/wood_image.jpg");
+    background-position: 60% 25%;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.carousel{
+
+    width: 75%;
+    background-color: beige;
+}

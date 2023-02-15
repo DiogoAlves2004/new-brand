@@ -1,0 +1,94 @@
+.header{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    width: 99vw;
+
+    height: 20%;
+    background: linear-gradient(180deg, #110251 0%, rgba(17, 2, 81, 0) 100%);
+    mix-blend-mode: normal;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.ul{
+
+    margin: 1.5em 2em 0 0;
+
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.li{
+
+    text-transform: capitalize;
+
+    list-style: none;
+    margin: 20px;
+
+    transition: all .5s;
+}
+
+.li a{
+
+    font-size: 1.1em;
+
+    text-decoration: none;
+    color: white;
+    padding: .3em 1.5em;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 3px solid white;
+
+    transition: all 1s;
+}
+
+.li a:hover{
+
+    text-decoration: none;
+    background: linear-gradient(180deg, #B33FFF 0%, #FF7F83 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #B33FFF;
+}
+
+.li:hover{
+    
+    padding: 0.4em 0 0.4em 0;
+    border-radius: 25px;
+    background-color: white;
+}
+
+
+
+.li_emphasis{
+    cursor: pointer;
+    list-style: none;
+    margin: 20px;
+    background-color: white;
+
+    padding: 1em 1.5em;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.li_emphasis a{
+
+    font-weight: bold;
+    font-size: 1.5em;
+
+    text-decoration: none;
+    background: linear-gradient(180deg, #B33FFF 0%, #FF7F83 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #B33FFF;
+}

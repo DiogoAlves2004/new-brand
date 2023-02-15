@@ -1,0 +1,121 @@
+.sobre_nos{
+    width: 99vw;
+    height: 125vh;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre_nos_box{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.left_box{
+    width: 30%;
+    margin: 2em ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_box{
+    margin: 1em ;
+    width: 70%;
+}
+
+
+
+/* RIGHT */
+
+.right_box_align{
+height: 75vh;
+
+}
+
+.h1{
+    height: 20%;
+    padding: .5em;
+    border: 5px solid #100152;
+    border-radius: 10px; 
+}
+
+.h1 h1{
+    margin-left: .5em;
+
+    font-weight: 500;    
+    font-size: 3em;
+    text-decoration: none;
+    background: linear-gradient(180deg, #B33FFF 0%, #FF7F83 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #B33FFF;
+
+}
+
+.right_text{
+    height: 77%;
+    margin-top: 1em;
+    padding: .5em;
+    border: 3px solid #100152;
+    border-radius: 10px; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right_text p{
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    margin: 2em;
+}
+
+
+/* LEFT */
+
+.left_text{
+    background: #100152;
+    border-radius: 25px;
+
+    height: 75vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.left_text p{
+    margin: 1em;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+}
+
+.left_mark1{
+
+    position: relative;
+
+    top: -25vh;
+    left: 2vw;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.left_mark2{
+
+    position: relative;
+
+    top: 30vh;
+    left: -2vw;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+}
