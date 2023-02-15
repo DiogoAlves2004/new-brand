@@ -1,0 +1,63 @@
+.squad_card{
+    border: 7px solid #FFFFFF;
+    width:  25vw;
+    height: 55vh;
+    margin: 1em;
+    border-radius: 50px 0px 100px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: all ease-in 0.5s;
+
+}
+
+    @media only screen and (max-width: 768px){
+        .squad_card{
+            border: 3px solid #FFFFFF;
+
+            width: 30vh;
+            height: 75vw;
+            justify-content: center;
+        }
+    }
+
+.squad_image{
+    height: 60%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squad_image img{
+    clip-path: circle();
+    height:100%;
+
+}
+
+.squad_card:hover {
+    transform: scale(1.1);
+}
+
+.name{
+    color: white;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.title{
+    color: white;
+    font-size: 1.7em;
+}
+
+@media only screen and (max-width: 768px){
+    .name{
+        font-size: 1.7em;
+    }
+    
+    .title{
+        font-size: 1.4em;
+    }
+}

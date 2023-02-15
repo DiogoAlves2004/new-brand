@@ -3,7 +3,7 @@ import styles from './styles/ProjectCard.module.css'
 
 
 //IMAGES
-import Logo from '../../img/Logo.jpeg'
+import Logo from '../../img/logo.jpeg'
 
 function ProjectCard(props){
 return(

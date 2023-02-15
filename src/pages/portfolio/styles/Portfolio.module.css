@@ -1,5 +1,5 @@
 .portfolio{
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
 
 
@@ -10,11 +10,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    flex-direction: column;
+
+    overflow-x: visible;
 }
+
+    @media only screen and (max-width: 768px){
+        .portfolio{
+            height: calc(max-content + 700px);
+        }
+    }
 
 
 .carousel{
 
     width: 75%;
-    background-color: beige;
+    overflow: scroll;
+
+}
+
+    @media only screen and (max-width: 768px){
+        .carousel{
+            width: 90vw !important;
+        }
+
+        .portfolio_title{
+            font-size: 2em !important;
+
+        }
+    }
+
+.portfolio_title{
+    margin-top: .5em;
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
 }

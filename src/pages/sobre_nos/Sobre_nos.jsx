@@ -25,15 +25,15 @@ function SobreNos(){
                 <div className={styles.right_box}>
                     <div className={styles.right_box_align}>
 
-                        <div className={styles.h1}><h1>Quem somos?</h1></div>
+                            <div className={styles.h1}><h1>Quem somos?</h1></div>
 
                             <div className={styles.right_text} >
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu non urna accumsan fringilla. In tortor tellus, suscipit vel suscipit non, placerat vel eros. Vivamus eget volutpat nulla, vitae elementum nunc. Curabitur eleifend egestas lorem, at viverra enim auctor a. Proin a cursus sapien, nec porta nulla. Curabitur lobortis nisi eu porttitor tincidunt. Etiam nec leo et quam blandit dignissim at eget mi.
                                 </p>
                             </div>
-                        </div>
                     </div>
+                </div>
             </div>
         </section>
     )

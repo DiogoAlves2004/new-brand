@@ -1,0 +1,71 @@
+.squad{
+    width: 100vw;
+    height: 125vh;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+    @media only screen and (max-width: 768px){
+        .squad{
+            height: max-content;
+        }
+    }
+
+
+.squad {
+    background: linear-gradient(133deg, #b33fff, #ff7f83);
+    background-size: 400% 400%;
+
+    -webkit-animation: background 10s ease infinite;
+    -moz-animation: background 10s ease infinite;
+    animation: background 10s ease infinite;
+}
+
+@-webkit-keyframes background {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@-moz-keyframes background {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@keyframes background {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+
+
+.squad_box{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    @media only screen and (max-width: 768px){
+        .squad_box{
+            flex-direction: column;
+            transform: translate(0 , -50px);
+        }
+    }
+
+.title{
+    margin-bottom: 1em;
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+
+    @media only screen and (max-width: 768px){
+        .title{
+            margin: 1em;
+        }
+    }

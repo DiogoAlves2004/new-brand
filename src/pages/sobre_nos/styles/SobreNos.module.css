@@ -1,17 +1,38 @@
 .sobre_nos{
-    width: 99vw;
+    width: 100vw;
     height: 125vh;
     background-color: #f2f2f2;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+    @media only screen and (max-width: 768px){
+        .sobre_nos{
+            height: max-content;
+        }
+    }
 
 .sobre_nos_box{
     display: flex;
     align-items: center;
     height: 100%;
 }
+
+    @media only screen and (max-width: 768px){
+        .sobre_nos_box{
+            flex-direction: column;
+        }
+        .left_text{
+            width: 90vw !important;
+            height: 300px !important;
+        }
+        .right_box,
+        .left_box{
+            width: 90vw !important;
+        }
+
+        
+    }
 
 
 .left_box{
@@ -118,4 +139,44 @@ height: 75vh;
     color: white;
     font-size: 5em;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 768px){
+
+    .right_box_align{
+        flex-direction: column;
+    }
+
+    .left_text{
+        font-size: 0.8em;
+    }
+
+    .right_text{
+        font-size: 0.7em;
+    }
+
+    .h1 h1{
+        font-size: 2.8em !important;
+
+    }
+    .h1{
+        display: flex;
+        align-items: center;
+    }
+
+    .left_mark1{
+
+        top: -10vh;
+        left: 3vw;
+
+    }
+    
+    .left_mark2{
+
+
+        top: 10vh;
+        left: -3vw;
+    }
+    
+
 }
