@@ -12,7 +12,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 //IMAGES
-import Logo from '../../img/Logo.jpeg'
 
 function Portfolio(){
     return(
