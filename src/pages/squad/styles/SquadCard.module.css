@@ -21,7 +21,39 @@
             height: 75vw;
             justify-content: center;
         }
+
+        .squad_image{
+            height: 40%;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
+
+    @media only screen and (max-width: 1080px){
+
+        .squad_image{
+            height: 50% !important;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 900px){
+
+        .squad_image{
+            height: 40% !important;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
+
 
 .squad_image{
     height: 60%;

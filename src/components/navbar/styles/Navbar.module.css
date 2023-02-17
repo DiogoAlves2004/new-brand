@@ -9,16 +9,20 @@
     height: 30%;
     background: linear-gradient(180deg, #110251 0%, rgba(17, 2, 81, 0) 100%);
     mix-blend-mode: normal;
+
+    transition: all ease-in 1s;
 }
 
 .nav{
     display: flex;
     justify-content: flex-end;
+    transition: all ease-in 1s;
 }
 .ul_1{
     margin: 1.5em 2em 0 0;
     display: flex;
     align-items: center;
+    transition: all ease-in 1s;
 }
     @media only screen and (max-width: 768px) {
         
@@ -126,6 +130,7 @@
 
         .hamburger{
             display: none;
+            transition: all ease-in 1s;
         }
     }
 
@@ -137,7 +142,6 @@
         }
         .ul_2{
             transition: all ease-in 1s;
-
             width: 100vw;
         }
 
@@ -165,6 +169,7 @@
         .li_emphasis a,
         .li_emphasis a:hover{
             padding: 1em 1.5em !important;
+            transition: all ease-in 1s;
         }
 
 
