@@ -10,7 +10,7 @@ import Logo from '../../img/logo1.jpeg'
 function Home(){
     return(
         <section className={styles.home}>
-            <Navbar href='/sobre_nos' />
+
 
 
             <img className={styles.home_image} src={Logo}/>
